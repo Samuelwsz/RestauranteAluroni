@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+    /*
 html,
 body,
 div,
@@ -87,17 +89,8 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+    article,
+  aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
@@ -122,11 +115,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-body {
+*/ body {
   background-color: #f6f6f6;
 }
 
 * {
   box-sizing: border-box;
+  font-family: "Italiana", serif;
 }
