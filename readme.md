@@ -19,3 +19,7 @@ npm run dev
 <h3>SASS</h3>
 <h3>CSS modules</h3>
 <h3>Vite</h3>
+
+## Projeto finalizado
+
+[Link do projeto](https://restaurante-aluroni-blush.vercel.app/)
