@@ -1,10 +1,9 @@
-import Cardapio from "./pages/Cardapio"
-import Inicio from "./pages/Inicio"
+import AppRoutes from "./routes/routes"
 
 function App() {
   return (
     <>
-      <Inicio />
+      <AppRoutes />
     </>
   )
 }

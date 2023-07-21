@@ -2,10 +2,11 @@ import { useState } from "react"
 import Cabecalho from "../../components/Cabecalho"
 import Buscador from "./Buscador"
 import styles from "./Cardapio.module.scss"
-import { ReactComponent as Logo } from "./logo.svg"
+
 import Filtros from "./Filtros"
 import Ordenador from "./Ordenador"
 import Itens from "./Itens"
+import Menu from "../../components/Menu"
 
 export default function Cardapio() {
   const [busca, setBusca] = useState("")
@@ -13,9 +14,7 @@ export default function Cardapio() {
   const [ordenador, setOrdenador] = useState("")
   return (
     <main>
-      <nav className={styles.menu}>
-        <Logo />
-      </nav>
+      <Menu />
       <Cabecalho />
       <section className={styles.cardapio}>
         <h3 className={styles.cardapio__titulo}>Cardápio</h3>
