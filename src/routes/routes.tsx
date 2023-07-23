@@ -21,8 +21,8 @@ export default function AppRoutes() {
               <Route path="cardapio" element={<Cardapio />} />
               <Route path="/sobre" element={<Sobre />} />
             </Route>
-            <Route path="*" element={<NotFound />} />
             <Route path="prato/:id" element={<Prato />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </BrowserRouter>
