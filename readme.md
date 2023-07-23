@@ -15,6 +15,7 @@ npm run dev
 
 ## Tecnologias Utilizadas
 <h3>React</h3>
+<h3>React router dom</h3>
 <h3>TypeScript</h3>
 <h3>SASS</h3>
 <h3>CSS modules</h3>
